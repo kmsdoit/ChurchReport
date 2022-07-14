@@ -3,7 +3,7 @@ import styled from "styled-components"
 import axios from 'axios'
 
 const Container = styled.div`
-  margin-top: 100px;
+  margin-top: 300px;
   padding: 20px;
 `;
 
@@ -32,7 +32,7 @@ const Button = styled.div`
   color: #fff;
   border: none;
   border-radius: 0;
-  background-color: #03c75a;
+  background-color: #0067a3;
   ${({ disabled }) =>
     disabled &&
     `
